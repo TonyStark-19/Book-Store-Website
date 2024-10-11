@@ -53,6 +53,17 @@ nav .nav-item-wrap {
     display: block;
 }
 
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile i {
+    color: #4b3621;
+}
+
 /* Dropdown */
 
 .dropdown-content {
