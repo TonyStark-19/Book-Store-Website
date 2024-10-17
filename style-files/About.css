@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 1em sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* About section */
+
+#about {
+    height: 100vh;
+    background: #D6C0B3;
+}
+
+/* navbr */
+
+nav {
+    background: #AB886D;
+}
+
+nav h3 {
+    color: #F7EED3;
+}
+
+.nav-item-wrap li a {
+    color: #FFF8E8;
+}
+
+.profile i {
+    color: #FFF8E8;
+}
+
+.About-content {
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.About-section-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #AB886D;
+}
