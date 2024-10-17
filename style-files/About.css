@@ -9,17 +9,17 @@
 
 #about {
     height: 100vh;
-    background: #D6C0B3;
+    background: #F0E5D8;
 }
 
 /* navbr */
 
 nav {
-    background: #AB886D;
+    background: #C97C5D;
 }
 
 nav h3 {
-    color: #F7EED3;
+    color: #F0E5D8;
 }
 
 .nav-item-wrap li a {
@@ -31,13 +31,23 @@ nav h3 {
 }
 
 .About-content {
-    padding: 50px 30px;
+    padding: 80px 50px;
     display: flex;
     justify-content: center;
 }
 
 .About-section-heading {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
-    color: #AB886D;
+    color: #5D4C46;
+}
+
+.About-section-heading::after {
+    content: '';
+    width: 110px;
+    background: #f3961c;
+    height: 5px;
+    display: block;
+    margin: 7px auto 0;
+    border-radius: 8px;
 }
