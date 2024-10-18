@@ -34,6 +34,8 @@ nav h3 {
     padding: 80px 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .About-section-heading {
@@ -50,4 +52,36 @@ nav h3 {
     display: block;
     margin: 7px auto 0;
     border-radius: 8px;
+}
+
+.About-info {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 40px;
+}
+
+.About-info-box {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.About-image img {
+    height: 230px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+.About-info-heading {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 0 10px;
+}
+
+.About-info-description {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 10px 0;
 }
