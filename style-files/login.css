@@ -11,15 +11,28 @@
     height: 100vh;
 }
 
+.login-content {
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .login-wrap {
     background: #9A7E6F;
-    width: 70%;
+    width: 60%;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
+    border-radius: 20px;
+    padding: 20px 0;
 }
 
 .login-box-img {
-    width: 40%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .login-box-img img {
@@ -29,22 +42,24 @@
 
 .login-box-content {
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
 .login-heading {
     font-size: 40px;
-    margin: 0 0 8px;
+    margin-bottom: 20px;
     font-weight: 700;
 }
 
 .login-with-button {
-    padding: 6px 12px;
+    padding: 8px 12px;
     font-size: 16px;
-    width: 280px;
+    width: 100%;
     border-radius: 20px;
     border: none;
     margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 .more-options {
@@ -63,4 +78,52 @@
     flex: 1;
     height: 1px;
     background: #eee;
+}
+
+.input-box input {
+    padding: 8px 12px;
+    letter-spacing: 1px;
+    width: 280px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.forget-password {
+    margin-bottom: 20px;
+}
+
+.forget-password a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.forget-password a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    padding: 8px 12px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.more-options-link {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.more-options-link .Sign-up {
+    text-decoration: none;
+}
+
+.more-options-link .Sign-up:hover {
+    text-decoration: underline;
 }
