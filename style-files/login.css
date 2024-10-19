@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 1em sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* About section */
+
+#about {
+    height: 100vh;
+}
+
+.login-wrap {
+    background: #9A7E6F;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.login-box-img {
+    width: 40%;
+}
+
+.login-box-img img {
+    height: 350px;
+    width: 350px;
+}
+
+.login-box-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-heading {
+    font-size: 40px;
+    margin: 0 0 8px;
+    font-weight: 700;
+}
+
+.login-with-button {
+    padding: 6px 12px;
+    font-size: 16px;
+    width: 280px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.more-options {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.or {
+    font-size: 16px;
+    margin: 0 16px;
+}
+
+.more-options::before, .more-options::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
