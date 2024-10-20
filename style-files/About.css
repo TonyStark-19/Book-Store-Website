@@ -12,24 +12,6 @@
     background: #F0E5D8;
 }
 
-/* navbr */
-
-nav {
-    background: #C97C5D;
-}
-
-nav h3 {
-    color: #F0E5D8;
-}
-
-.nav-item-wrap li a {
-    color: #FFF8E8;
-}
-
-.profile i {
-    color: #FFF8E8;
-}
-
 .About-content {
     padding: 80px 50px;
     display: flex;

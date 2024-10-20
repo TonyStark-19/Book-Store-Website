@@ -7,8 +7,9 @@
 
 /* About section */
 
-#about {
+#Login {
     height: 100vh;
+    background: #e3e6e8;
 }
 
 .login-content {
@@ -18,8 +19,15 @@
     align-items: center;
 }
 
+.background-login {
+    position: absolute;
+    height: 89vh;
+    width: 100%;
+}
+
 .login-wrap {
-    background: #9A7E6F;
+    position: relative;
+    background: #4a6572;
     width: 60%;
     display: flex;
     justify-content: space-evenly;
@@ -36,8 +44,8 @@
 }
 
 .login-box-img img {
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
 }
 
 .login-box-content {
@@ -50,6 +58,7 @@
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: 700;
+    color: #fdfdfd;
 }
 
 .login-with-button {
@@ -62,6 +71,10 @@
     letter-spacing: 1px;
 }
 
+.login-with-button:hover {
+    background: #f5f5dc;
+}
+
 .more-options {
     margin-bottom: 20px;
     display: flex;
@@ -71,13 +84,14 @@
 .or {
     font-size: 16px;
     margin: 0 16px;
+    color: #fdfdfd;
 }
 
 .more-options::before, .more-options::after {
     content: "";
     flex: 1;
     height: 1px;
-    background: #eee;
+    background: #fdfdfd;
 }
 
 .input-box input {
@@ -114,14 +128,20 @@
     letter-spacing: 1px;
 }
 
+.login-btn:hover {
+    background: #f5f5dc;
+}
+
 .more-options-link {
     font-size: 16px;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    color: #fdfdfd;
 }
 
 .more-options-link .Sign-up {
     text-decoration: none;
+    color: #fdfdfd;
 }
 
 .more-options-link .Sign-up:hover {
