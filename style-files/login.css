@@ -69,6 +69,8 @@
     border: none;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    color: #212529;
+    cursor: pointer;
 }
 
 .login-with-button:hover {
@@ -99,8 +101,13 @@
     letter-spacing: 1px;
     width: 280px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid transparent;
     margin-bottom: 20px;
+}
+
+.input-box input:focus {
+    border: 2px solid #CC5500;
+    outline: none;
 }
 
 .forget-password {
@@ -126,6 +133,8 @@
     border: none;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    color: #212529;
+    cursor: pointer;
 }
 
 .login-btn:hover {
