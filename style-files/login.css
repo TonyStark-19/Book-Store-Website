@@ -5,12 +5,14 @@
     scroll-behavior: smooth;
 }
 
-/* About section */
+/* Login section */
 
 #Login {
     height: 100vh;
     background: #e3e6e8;
 }
+
+/* Login-content area */
 
 .login-content {
     height: 89vh;
@@ -19,11 +21,15 @@
     align-items: center;
 }
 
+/* background img */
+
 .background-login {
     position: absolute;
     height: 89vh;
     width: 100%;
 }
+
+/* Login wrap */
 
 .login-wrap {
     position: relative;
@@ -36,6 +42,8 @@
     padding: 20px 0;
 }
 
+/* Login box img */
+
 .login-box-img {
     width: 30%;
     display: flex;
@@ -47,6 +55,8 @@
     height: 450px;
     width: 450px;
 }
+
+/* Input area */
 
 .login-box-content {
     display: flex;
