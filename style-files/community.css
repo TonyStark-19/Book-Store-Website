@@ -11,3 +11,22 @@
     min-height: 100vh;
     background: #fdfdfd;
 }
+
+.community-content {
+    padding: 80px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.community-section-heading {
+    font-size: 35px;
+    font-weight: 600;
+    color: #5D4C46;
+}
+
+.community-section-sub-heading {
+    font-size: 20px;
+    margin-top: 10px;
+}
