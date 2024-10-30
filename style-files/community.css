@@ -28,5 +28,28 @@
 
 .community-section-sub-heading {
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
+    color: #2f4f4f;
+    font-weight: 600;
+}
+
+.community-boxes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.community-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.community-box-img {
+    height: 250px;
+    width: 250px;
 }
