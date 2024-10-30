@@ -34,12 +34,13 @@
 }
 
 .community-boxes {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .community-box {
@@ -47,9 +48,45 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 400px;
+    background: linear-gradient(135deg, #fff, #f0f4f8);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.community-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
 }
 
 .community-box-img {
-    height: 250px;
-    width: 250px;
+    height: 180px;
+    width: 180px;
+}
+
+.community-box-heading {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.community-box-description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.community-box-button {
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    background: rgb(83, 206, 255);
+    margin-bottom: 30px;
+    font-weight: 600;
+    cursor: pointer;
 }
