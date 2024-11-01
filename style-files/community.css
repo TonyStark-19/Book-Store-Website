@@ -34,13 +34,16 @@
 }
 
 .community-boxes {
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
+    background: #e6e4e4;
+    padding: 40px 0;
+    border-radius: 20px;
 }
 
 .community-box {
@@ -49,6 +52,7 @@
     align-items: center;
     flex-direction: column;
     width: 400px;
+    height: 336px;
     background: linear-gradient(135deg, #fff, #f0f4f8);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -61,20 +65,28 @@
     background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
 }
 
-.community-box-img {
-    height: 180px;
-    width: 180px;
+.community-box i {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.community-box-icon {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .community-box-heading {
     font-size: 25px;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .community-box-description {
     font-size: 15px;
     letter-spacing: 1px;
-    line-height: 1.2;
+    line-height: 1.4;
     text-align: center;
     margin-bottom: 20px;
     width: 80%;
@@ -85,8 +97,12 @@
     border-radius: 10px;
     color: #fff;
     border: none;
-    background: rgb(83, 206, 255);
+    background: rgb(69, 198, 249);
     margin-bottom: 30px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.community-box-button:hover {
+    background: rgb(48, 191, 248);
 }
