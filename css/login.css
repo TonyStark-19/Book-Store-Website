@@ -49,11 +49,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: animate 1s ease-in-out forwards;
 }
 
 .login-box-img img {
     height: 450px;
     width: 450px;
+}
+
+@keyframes animate {
+    from {
+        opacity: 0;
+        transform: translate(100px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 /* Input area */
@@ -62,6 +75,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    animation: login 1s ease-in-out forwards;
 }
 
 .login-heading {
@@ -165,4 +179,16 @@
 
 .more-options-link .Sign-up:hover {
     text-decoration: underline;
+}
+
+@keyframes login {
+    from {
+        opacity: 0;
+        transform: translate(-100px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
