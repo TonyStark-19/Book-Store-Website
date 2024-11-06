@@ -57,6 +57,8 @@
     width: 450px;
 }
 
+/* Animation */
+
 @keyframes animate {
     from {
         opacity: 0;
@@ -181,6 +183,8 @@
 .more-options-link .Sign-up:hover {
     text-decoration: underline;
 }
+
+/* Animation */
 
 @keyframes login {
     from {
