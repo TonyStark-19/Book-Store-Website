@@ -113,7 +113,8 @@
     color: #fdfdfd;
 }
 
-.more-options::before, .more-options::after {
+.more-options::before,
+.more-options::after {
     content: "";
     flex: 1;
     height: 1px;
