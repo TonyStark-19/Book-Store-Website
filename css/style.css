@@ -148,7 +148,6 @@ nav .nav-item-wrap {
 .image img {
     height: 550px;
     width: 550px;
-    animation: animate 1s ease-in-out forwards;
 }
 
 /* buttons */
