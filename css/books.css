@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+:root {
+    --swiper-theme-color: black;
+}
+
 /* About section */
 
 #books {
