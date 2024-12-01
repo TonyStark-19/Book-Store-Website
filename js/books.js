@@ -16,3 +16,15 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+var swiperContainer = document.querySelector(".mySwiper");
+
+// on mouse enter this function stops the slider
+swiperContainer.addEventListener("mouseenter", function () {
+    swiper.autoplay.stop();
+});
+
+//on mouse leave this function starts the slider
+swiperContainer.addEventListener("mouseleave", function () {
+    swiper.autoplay.start();
+});
