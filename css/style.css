@@ -197,7 +197,7 @@ nav .nav-item-wrap {
 @keyframes animate {
     from {
         opacity: 0;
-        transform: translate(0, 50px);
+        transform: translate(0, -80px);
     }
 
     to {
