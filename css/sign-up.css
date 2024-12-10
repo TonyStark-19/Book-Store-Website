@@ -1,6 +1,6 @@
 /* Input area */
 .login-box-content {
-    animation: animate 1s ease-in-out forwards;
+    animation: animate 0.9s ease forwards;
 }
 
 /* Animation */
@@ -19,7 +19,7 @@
 
 /* Login box img */
 .login-box-img {
-    animation: login 1s ease-in-out forwards;
+    animation: login 0.9s ease forwards;
 }
 
 /* Animation */
